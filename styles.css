@@ -1,0 +1,191 @@
+/* Root styling */
+
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Header and NavBar styles*/
+
+header {
+  background-image: url("/images/header_bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header h2 {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+  font-family: "Merienda", cursive;
+}
+
+/* Styles for the entire body categorized in sections*/
+
+body {
+  background-color: hsl(333, 40%, 87%);
+}
+
+h1 {
+  color: hsl(180, 4%, 5%);
+  font-family: "Merienda", cursive;
+}
+
+section h2 {
+  margin: 2rem 5rem 1.5rem 5rem;
+}
+
+section p {
+  color: hsl(180, 4%, 5%);
+  font-family: "Gochi Hand", cursive;
+  margin: 0rem 5rem 0rem 5rem;
+}
+
+/* project section styles */
+
+section .cards__container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.card {
+  padding: 0.5rem;
+  background-color: whitesmoke;
+  display: inline-block;
+  border-radius: 0.25rem;
+  margin: 0.3rem;
+}
+
+.card-img {
+  height: 25rem;
+  width: 25rem;
+  padding-bottom: 1rem;
+}
+
+.card-text,
+.card-link,
+.card-title {
+  margin: 0.7rem 0rem 0.7rem 0rem;
+}
+
+/* About me section styles */
+
+.second__image {
+  float: right;
+  height: 350px;
+  width: 350px;
+  margin: 0.5rem 5rem 0.5rem 1rem;
+}
+
+section .about__container {
+  background-color: #caa9e4;
+}
+
+/* skills section styles */
+
+.third__image {
+  float: left;
+  height: 350px;
+  width: 350px;
+  margin: 0.5rem 1rem 0.5rem 5rem;
+}
+
+/* Contact me section styles */
+
+.contact__container {
+  background-color: #caa9e4;
+  height: 70vh;
+}
+
+.contact__content,
+.contact__button {
+  display: flex;
+  justify-content: center;
+}
+
+#contact__me {
+  text-align: center;
+  padding: 3rem 0rem 1rem 0rem;
+}
+
+.contact_label {
+  margin-right: 30px;
+  color: #3b2a48;
+  padding-top: 12px;
+  font-family: "Merienda", cursive;
+}
+
+.contact__email,
+.contact__name {
+  margin-left: 15px;
+  height: 40px;
+}
+
+.contact__text,
+.contact__email,
+.contact__name {
+  width: 400px;
+  background-color: rgb(221, 205, 236);
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+.form__button {
+  color: #3b2a48;
+  text-decoration: none;
+  font-family: "Merienda", cursive;
+  font-size: larger;
+}
+
+/* Styles for footer */
+
+footer {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a,
+.card-link {
+  text-decoration: none;
+  color: #3b2a48;
+}
+
+footer a:hover {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 3px;
+  column-gap: #3b2a48;
+}
