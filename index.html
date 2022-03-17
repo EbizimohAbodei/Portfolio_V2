@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A personal Portfolio" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d2f9127a47.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,54 +34,69 @@
     <title>Personal Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Abodei Ebizimoh</h1>
-      <nav class="nav">
-        <ul class="nav__links">
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#about">About me</a>
-          </li>
+    <header class="index__header">
+      <div class="main__nav">
+        <div class="nav__logo">
+          <h1><a href="/index.html">Abodei Ebizimoh</a></h1>
+          <button class="mobileMenu"><i class="fa fa-bars"></i></button>
+        </div>
+        <div>
+          <nav>
+            <ul class="nav__links">
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#about_me">About me</a>
+              </li>
 
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-
-          <li>
-            <a href="https://en.bc.fi/" target="blank">More about BCH</a>
-          </li>
-        </ul>
-        <h2>Welcome to my Portfolio</h2>
-      </nav>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="/gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a href="https://en.bc.fi/" target="blank">More about BCH</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
-      <section class="projects__section">
+      <div class="hero__banner">
+        <h2>Welcome to my Portfolio</h2>
+      </div>
+      <section class="projects__section" id="#projects">
         <div class="projects__container">
           <h2 id="projects">Projects</h2>
-          <div class="cards__container">
-            <div class="card">
+          <div class="cards__container projects">
+            <div class="card column">
               <img
                 class="card-img"
                 src="/images/HTML.jpg"
                 alt="Card image cap"
               />
-              <div class="card-body">
+              <div class="card-body column">
                 <h5 class="card-title">Lorem, ipsum dolor.</h5>
                 <p class="card-text">Html, CSS, JavaScript.</p>
                 <a href="#" class="card-link">See more</a>
               </div>
             </div>
-            <div class="card">
-              <img class="card-img" src="/images/JS.jpg" alt="Card image cap" />
+            <div class="card column">
+              <img
+                class="card-img"
+                src="/images/sswe.jpg"
+                alt="Card image cap"
+              />
               <div class="card-body">
                 <h5 class="card-title">Lorem, ipsum dolor.</h5>
                 <p class="card-text">UX Design Layouts</p>
                 <a href="#" class="card-link">See more</a>
               </div>
             </div>
-            <div class="card">
+            <div class="card column">
               <img
                 class="card-img"
                 src="/images/UI:UX.jpg"
@@ -89,207 +113,193 @@
       </section>
       <section class="about__section">
         <div class="about__container">
-          <h2 id="about">About me</h2>
-          <img src="/images/Upsplash_3.jpeg" class="second__image" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Voluptates, inventore natus. Itaque facere ipsa quibusdam laboriosam
-            nemo voluptas perspiciatis, atque assumenda tempore dolores iste,
-            dolore aliquam nihil reprehenderit optio esse voluptatibus
-            consectetur fuga? Amet magnam harum fugit molestias omnis, maiores
-            tempore. Quis, doloribus. Fuga dignissimos minus perspiciatis
-            dolorum dolor autem vel corrupti excepturi debitis blanditiis quo,
-            molestiae dicta quidem mollitia rerum odio esse? Rem laudantium
-            nostrum pariatur obcaecati consequatur neque iste eveniet voluptas
-            nulla velit, accusantium aspernatur commodi omnis. Ratione eum
-            assumenda id aut accusantium unde tempore, exercitationem fugit
-            culpa neque iste quibusdam impedit labore reprehenderit accusamus
-            incidunt? Non necessitatibus vitae repudiandae! Eveniet dolorem
-            obcaecati recusandae quos, nesciunt accusantium. Eveniet provident
-            dignissimos eligendi ab magnam sequi omnis minus vitae
-            reprehenderit, temporibus nihil blanditiis quia et id suscipit
-            accusantium consequatur ipsum eos ratione magni? Unde minus non
-            alias labore, asperiores dolorum corporis exercitationem
-            consequatur? Ex facilis obcaecati nihil suscipit minus molestias nam
-            cum. Deleniti exercitationem rerum molestias molestiae recusandae
-            dolores quasi eos ipsam modi porro laborum voluptates expedita
-            soluta unde laboriosam, possimus voluptatibus minima odio obcaecati
-            cum illum assumenda. Reiciendis aut molestias illo inventore fugit
-            similique cumque ea, voluptate porro deleniti corporis facilis omnis
-            molestiae ex exercitationem recusandae culpa magnam, non magni.
-            Cumque animi, quis error accusantium consequuntur voluptatibus cum
-            similique architecto enim optio non necessitatibus nisi debitis odio
-            magnam doloribus. Fuga, ducimus laborum, eius id quos doloremque hic
-            atque delectus temporibus ea a. Deserunt necessitatibus non sunt
-            dignissimos aperiam magnam tempora molestiae, odio, illum, mollitia
-            quas deleniti autem quibusdam ut qui ea vel corrupti incidunt vitae
-            impedit temporibus natus quis aliquid! Repellat eum cumque officiis
-            fugiat sunt vel inventore commodi. Molestiae alias in natus harum
-            deleniti modi nam labore. Qui eveniet ut nemo rem, maiores
-            distinctio odio itaque eos eius molestiae iste voluptas nihil sit id
-            sed nam totam porro beatae provident optio magni? Iste, maiores.
-            Saepe ducimus eum quasi quaerat doloremque? Quod eligendi minima
-            quam quisquam qui dicta maxime labore blanditiis quas a maiores
-            corporis enim quis molestias nam minus delectus tenetur omnis
-            aliquam id in, doloremque, et perferendis! Hic eius unde facere,
-            voluptates est voluptatibus dolor atque, sit architecto aspernatur
-            voluptas modi placeat veritatis exercitationem necessitatibus,
-            quaerat amet? Blanditiis nesciunt ex nisi eius recusandae sapiente
-            explicabo, dolores possimus consequatur officiis aliquam nemo
-            aperiam enim asperiores consequuntur voluptatum necessitatibus,
-            veniam incidunt adipisci voluptas deleniti quibusdam! Soluta,
-            provident laboriosam incidunt voluptatum consequatur, rerum earum a
-            dignissimos, doloribus quod laudantium quia?
-          </p>
+          <h2 id="about_me">About me</h2>
+          <div class="about-img-text">
+            <img src="/images/Upsplash_3.jpeg" class="about__image" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptates, inventore natus. Itaque facere ipsa quibusdam
+              laboriosam nemo voluptas perspiciatis, atque assumenda tempore
+              dolores iste, dolore aliquam nihil reprehenderit optio esse
+              voluptatibus consectetur fuga? Amet magnam harum fugit molestias
+              omnis, maiores tempore. Quis, doloribus. Fuga dignissimos minus
+              perspiciatis dolorum dolor autem vel corrupti excepturi debitis
+              blanditiis quo, molestiae dicta quidem mollitia rerum odio esse?
+              Rem laudantium nostrum pariatur obcaecati consequatur neque iste
+              eveniet voluptas nulla velit, accusantium aspernatur commodi
+              omnis. Ratione eum assumenda id aut accusantium unde tempore,
+              exercitationem fugit culpa neque iste quibusdam impedit labore
+              reprehenderit accusamus incidunt? Non necessitatibus vitae
+              repudiandae! Eveniet dolorem obcaecati recusandae quos, nesciunt
+              accusantium. Eveniet provident dignissimos eligendi ab magnam
+              sequi omnis minus vitae reprehenderit, temporibus nihil blanditiis
+              quia et id suscipit accusantium consequatur ipsum eos ratione
+              magni? Unde minus non alias labore, asperiores dolorum corporis
+              exercitationem consequatur? Ex facilis obcaecati nihil suscipit
+              minus molestias nam cum. Deleniti exercitationem rerum molestias
+              molestiae recusandae dolores quasi eos ipsam modi porro laborum
+              voluptates expedita soluta unde laboriosam, possimus voluptatibus
+              minima odio obcaecati cum illum assumenda. Reiciendis aut
+              molestias illo inventore fugit similique cumque ea, voluptate
+              porro deleniti corporis facilis omnis molestiae ex exercitationem
+              recusandae culpa magnam, non magni. Cumque animi, quis error
+              accusantium consequuntur voluptatibus cum similique architecto
+              enim optio non necessitatibus nisi debitis odio magnam doloribus.
+              Fuga, ducimus laborum, eius id quos doloremque hic atque delectus
+              temporibus ea a. Deserunt necessitatibus non sunt dignissimos
+              aperiam magnam tempora molestiae, odio, illum, mollitia quas
+              deleniti autem quibusdam ut qui ea vel corrupti incidunt vitae
+              impedit temporibus natus quis aliquid! Repellat eum cumque
+              officiis fugiat sunt vel inventore commodi. Molestiae alias in
+              natus harum deleniti modi nam labore. Qui eveniet ut nemo rem,
+              maiores distinctio odio itaque eos eius molestiae iste voluptas
+              nihil sit id sed nam totam porro beatae provident optio magni?
+              Iste, maiores.
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="skills__section">
         <div class="skills__container">
           <h2 id="skills">Skills</h2>
-          <img src="/images/Upsplash_2.jpeg" class="third__image" alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nulla
-            incidunt itaque dicta, reprehenderit nostrum quidem saepe
-            perferendis consequatur a rem voluptate repudiandae adipisci, illo,
-            quis ipsam eum nemo quibusdam maiores dolor eos autem quod!
-            Distinctio eum dicta necessitatibus ratione incidunt odit eos. Iste
-            inventore, earum excepturi totam dolorem facilis cum sapiente, autem
-            non possimus nesciunt optio est ratione a! Blanditiis atque nobis
-            labore et quia eveniet odit asperiores iusto eum, dolor delectus
-            enim similique dicta cum. Dolores dicta maiores fuga nesciunt
-            repellat soluta dolore eos incidunt enim molestias mollitia sequi
-            atque itaque doloremque voluptatum, magnam corporis autem hic
-            tempora a ipsum velit ut, placeat aspernatur. Odio fugit repellendus
-            culpa error dolores necessitatibus magni aliquam consequuntur nihil,
-            quaerat corporis. Vero tempore perspiciatis enim odit, reprehenderit
-            unde et at iusto, id exercitationem perferendis placeat ullam
-            nostrum vel aliquid rem corporis vitae soluta cumque laboriosam
-            velit. Cum blanditiis, porro sequi repellendus adipisci at
-            architecto atque modi aut totam, ipsam odio eius vel magnam facere?
-            Id repellat neque excepturi! Nulla voluptatum explicabo voluptate
-            esse ex dolorum distinctio beatae numquam quo. Adipisci suscipit
-            sapiente nesciunt. Tempore accusantium accusamus natus, facere earum
-            maxime cum consectetur sed at deleniti inventore eum deserunt fugiat
-            suscipit. Velit, voluptatum perferendis veritatis quod, magnam
-            accusantium ut esse aperiam recusandae soluta minima? Soluta quia,
-            voluptas pariatur sapiente laboriosam quam cupiditate enim
-            exercitationem saepe ipsam quibusdam nemo voluptates similique quo
-            aliquam distinctio sit minima ullam quas autem ex facilis, amet
-            voluptatum suscipit. In est quasi ipsum velit pariatur iure
-            consequatur assumenda ipsa fugiat delectus laudantium beatae hic,
-            maxime, suscipit iusto deleniti aliquam. Ullam ea qui nam enim amet
-            doloribus, facere dolorum neque a odio totam saepe accusantium
-            eaque, quos excepturi. Voluptatum rem necessitatibus vero odit
-            nesciunt, dolores facere repellat numquam quos rerum enim, totam
-            dignissimos alias vel ab laboriosam saepe itaque deserunt, ipsam
-            praesentium qui! Nam asperiores aliquam reiciendis consequatur
-            doloremque, mollitia, aut natus nesciunt alias vero animi, expedita
-            corrupti totam! Non adipisci quis fugiat reprehenderit voluptatum
-            iure cupiditate quos laboriosam consequuntur esse? Cumque, dolor
-            facilis, est minima ex laboriosam nulla exercitationem aspernatur
-            ipsa consequuntur autem odit quas! Iusto, dicta? Nisi repudiandae,
-            maiores praesentium exercitationem consectetur fuga voluptatum
-            ducimus qui. Distinctio dolore facere illum possimus iste, similique
-            recusandae voluptatum esse blanditiis enim expedita aperiam quaerat.
-            Omnis dignissimos consequatur itaque aut accusantium ut sit dicta
-            fugit nemo, tenetur ipsa placeat, ab amet aspernatur commodi
-            incidunt? Fugit veniam voluptatum et quis labore saepe animi!
-          </p>
+          <div class="cards__container skills">
+            <div class="card__column">
+              <img src="/images/html-5.png" alt="#" />
+              <div class="card-body column">
+                <progress value="30" max="100"></progress>
+              </div>
+            </div>
+            <div class="card__column">
+              <img src="/images/js.png" alt="#" />
+              <div class="card-body">
+                <progress value="50" max="100"></progress>
+              </div>
+            </div>
+            <div class="card__column">
+              <img src="/images/css.png" alt="#" />
+              <div class="card-body">
+                <progress value="70" max="100"></progress>
+              </div>
+            </div>
+            <div class="card__column">
+              <img src="/images/php.png" alt="" />
+              <div class="card-body">
+                <progress value="40" max="100"></progress>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="contacts__section">
-        <div class="contact__container">
-          <h2 id="contact__me">Contact Me</h2>
-          <form>
-            <div class="contact__content">
-              <label for="name" class="contact_label">Your name: </label>
-              <input type="text" class="contact__name" name="name" />
+      <section class="contacts__section" id="contact">
+        <h2 id="contact__me">Contact Me</h2>
+        <div class="contact">
+          <form class="contact__form">
+            <div>
+              <div>
+                <label for="name" class="contact_label"
+                  >First and Last Name:
+                </label>
+              </div>
+              <input type="text" class="contact__name" name="name" id="name" />
             </div>
-            <div class="contact__content">
-              <label for="email" class="contact_label">Your email: </label>
-              <input type="email" class="contact__email" name="email" />
+            <div>
+              <div>
+                <label for="email" class="contact_label">
+                  Email Address:
+                </label>
+              </div>
+              <input
+                type="email"
+                class="contact__email"
+                name="email"
+                id="email"
+              />
             </div>
-            <div class="contact__content">
-              <label for="message" class="contact_label">Your message:</label>
+            <div>
+              <div>
+                <label for="contact__text" class="contact_label"
+                  >Your Message:</label
+                >
+              </div>
               <textarea
-                name=""
                 id="contact__text"
-                cols="0"
+                cols="4"
                 rows="7"
                 class="contact__text"
                 name="message"
               ></textarea>
             </div>
-            <div class="contact__button">
-              <a href="" class="form__button" id="submit">
-                Send Message
-                <i class="uil uil-message button_icon"></i>
-              </a>
-            </div>
+            <a href="" class="form__button" id="submit">
+              Send Message
+              <i class="uil uil-message button_icon"></i>
+            </a>
           </form>
         </div>
       </section>
-      <footer>
-        <div class="footer__container">
-          <div class="footer__nav">
-            <ul>
-              <li>
-                <a href="/index.html" class="footer-nav-link">Home</a>
-              </li>
-              <li>
-                <a href="#project" class="footer-nav-link">Projects</a>
-              </li>
-              <li>
-                <a href="#about me" class="footer-nav-link">About me</a>
-              </li>
-              <li>
-                <a href="skills" class="footer-nav-link">Skills</a>
-              </li>
-              <li>
-                <a href="#contact" class="footer-nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__social">
-            <ul>
-              <li>
-                <a href="https://github.com/EbizimohAbodei" target="blank">
-                  <i class="fab fa-github icon">Github</i>
-                </a>
-              </li>
-              <li>
-                <a href="http://twitter.com/ebizimoh_a" target="blank"
-                  ><i class="fab fa-twitter icon">Twitter</i></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://linkedin.com/in/abodei-ebizimoh-94477389"
-                  target="blank"
-                  ><i class="fab fa-linkedin-in icon">Linkedin</i></a
-                >
-              </li>
-              <li>
-                <a href="mailto:ebizimohabodei@gmail.com" target="blank"
-                  ><i class="fab fa-google-plus-g icon">Email</i></a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="footer__codedBy">
-            <ul>
-              <li>
-                <p>
-                  <i class="fas fa-code"></i> Designed by Ebizimoh A. &copy;
-                  2022
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
     </main>
+    <footer>
+      <div class="footer__container">
+        <div class="footer__nav">
+          <ul>
+            <li>
+              <a href="/index.html" class="footer-nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#projects" class="footer-nav-link">Projects</a>
+            </li>
+            <li>
+              <a href="#about_me" class="footer-nav-link">About me</a>
+            </li>
+            <li>
+              <a href="#skills" class="footer-nav-link">Skills</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer-nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <ul>
+            <li>
+              <a href="https://github.com/EbizimohAbodei" target="blank">
+                <i class="fab fa-github icon">Github</i>
+              </a>
+            </li>
+            <li>
+              <a href="http://twitter.com/ebizimoh_a" target="blank"
+                ><i class="fab fa-twitter icon">Twitter</i></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/abodei-ebizimoh-94477389"
+                target="blank"
+                ><i class="fab fa-linkedin-in icon">Linkedin</i></a
+              >
+            </li>
+            <li>
+              <a href="mailto:ebizimohabodei@gmail.com" target="blank"
+                ><i class="fab fa-google-plus-g icon">Email</i></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__codedBy">
+          <ul>
+            <li>
+              <p class="credit">
+                <i class="fas fa-code"></i> Designed by Ebizimoh A. &copy; 2022
+              </p>
+            </li>
+          </ul>
+        </div>
+        <button class="backToTop">
+          Top <i class="uil uil-top-arrow-from-top"></i>
+        </button>
+      </div>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>
